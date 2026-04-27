@@ -62,7 +62,7 @@
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:text="Kamien"
-            android:textSize="14sp"
+            android:textSize="12sp"
             android:backgroundTint="#16213e"
             android:layout_margin="8dp"/>
 
@@ -71,7 +71,7 @@
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:text="Papier"
-            android:textSize="14sp"
+            android:textSize="12sp"
             android:backgroundTint="#16213e"
             android:layout_margin="8dp"/>
 
@@ -80,7 +80,7 @@
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:text="Nozyce"
-            android:textSize="14sp"
+            android:textSize="12sp"
             android:backgroundTint="#16213e"
             android:layout_margin="8dp"/>
     </LinearLayout>
