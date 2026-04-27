@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1a1a2e"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tura gracza: X"
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="24dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/b0" android:layout_width="90dp" android:layout_height="90dp" android:textSize="32sp" android:backgroundTint="#16213e" android:layout_margin="4dp"/>
+        <Button android:id="@+id/b1" android:layout_width="90dp" android:layout_height="90dp" android:textSize="32sp" android:backgroundTint="#16213e" android:layout_margin="4dp"/>
+        <Button android:id="@+id/b2" android:layout_width="90dp" android:layout_height="90dp" android:textSize="32sp" android:backgroundTint="#16213e" android:layout_margin="4dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/b3" android:layout_width="90dp" android:layout_height="90dp" android:textSize="32sp" android:backgroundTint="#16213e" android:layout_margin="4dp"/>
+        <Button android:id="@+id/b4" android:layout_width="90dp" android:layout_height="90dp" android:textSize="32sp" android:backgroundTint="#16213e" android:layout_margin="4dp"/>
+        <Button android:id="@+id/b5" android:layout_width="90dp" android:layout_height="90dp" android:textSize="32sp" android:backgroundTint="#16213e" android:layout_margin="4dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/b6" android:layout_width="90dp" android:layout_height="90dp" android:textSize="32sp" android:backgroundTint="#16213e" android:layout_margin="4dp"/>
+        <Button android:id="@+id/b7" android:layout_width="90dp" android:layout_height="90dp" android:textSize="32sp" android:backgroundTint="#16213e" android:layout_margin="4dp"/>
+        <Button android:id="@+id/b8" android:layout_width="90dp" android:layout_height="90dp" android:textSize="32sp" android:backgroundTint="#16213e" android:layout_margin="4dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Nowa gra"
+        android:backgroundTint="#e94560"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnWrocKK"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Menu"
+        android:backgroundTint="#0f3460"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
